@@ -1,0 +1,21 @@
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.contact-form .button-row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contact-form .message {
+  height: 100px;
+  font-size: 16px;
+}
+
+@media all and (max-width: 670px) {
+  .contact-form button {
+    width: 100%;
+  }
+}

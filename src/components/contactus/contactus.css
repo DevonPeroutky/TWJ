@@ -1,0 +1,102 @@
+.contact-us {
+  padding: 100px 10%;;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FAFAFA;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.contact-us .left-panel .title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.contact-us-form {
+  width: 100%;
+}
+
+.contact-us .profiles {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us .profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile + .profile {
+  margin-top: 50px;
+}
+
+.contact-us .profile img {
+  width: 175px;
+  height: 175px;
+}
+
+.contact-us .profile .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-us .profile .info .name {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.contact-us .profile .info .description {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+@media all and (min-width: 670px) {
+  .contact-us .left-panel {
+    margin-right: 50px;
+  }
+  .contact-us .left-panel {
+    width: 45%;
+  }
+  .contact-us .profile img {
+    margin-right: 50px;
+  }
+}
+
+@media all and (max-width: 900px) {
+  .contact-us {
+    flex-direction: column;
+  }
+  .contact-us .left-panel {
+    width: 90%;
+  }
+  .contact-us .profiles {
+    margin-top: 50px;
+  }
+}
+
+@media all and (max-width: 670px) {
+  .contact-us .left-panel .title {
+    text-align: center;
+  }
+
+  .contact-us .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us .profile .info {
+    margin-top: 20px;
+  }
+
+  .contact-us .profile .info .name,
+  .contact-us .profile .info .description {
+    text-align: center;
+  }
+
+}

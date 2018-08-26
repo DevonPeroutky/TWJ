@@ -1,0 +1,22 @@
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+
+@font-face {
+  font-family: hanken-book;
+  src: url(assets/fonts/Hanken-Book.ttf);
+}
+
+@font-face {
+  font-family: hanken-light;
+  src: url(assets/fonts/Hanken-Light.ttf);
+}
+
+@font-face {
+  font-family: sk-modernist-regular;
+  src: url(assets/fonts/Sk-Modernist-Regular.otf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sk-modernist-regular, sans-serif;
+}
